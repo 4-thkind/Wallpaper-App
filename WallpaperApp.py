@@ -21,3 +21,8 @@ text_label.pack(pady=(50,10))
 img_lable=Label(root,image=img_arr[0])
 img_lable.pack(pady=(10,20))
 img_lable.config(relief="solid",highlightbackground="black",highlightthickness=2)
+
+next_button=Button(root,text="Next wallpaper",fg="black",bg="yellow",font=("calibri",14,"bold"),relief="solid",
+                   highlightcolor="blue",highlightthickness=1,
+                   command=change_wall)
+next_button.pack(ipady=5,ipadx=2,pady=(0,5))
