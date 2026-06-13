@@ -21,7 +21,7 @@
 
 ## What Is This?
 
-Wallpaper App is a no-nonsense desktop utility that puts your own image collection front and center .No cloud sync, no background services, no unnecessary overhead just a clean preview window, two buttons, and your wallpaper changed in under a second. Built with Python and Tkinter, it hooks directly into the Windows API to swap your desktop background as fast as you can click.
+Wallpaper App is a no nonsense desktop utility that puts your own image collection front and center .No cloud sync, no background services, no unnecessary overhead just a clean preview window, two buttons, and your wallpaper changed in under a second. Built with Python and Tkinter, it hooks directly into the Windows API to swap your desktop background as fast as you can click.
 
 ---
 
