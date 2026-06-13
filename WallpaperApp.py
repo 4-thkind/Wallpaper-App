@@ -4,6 +4,13 @@ import os
 import ctypes
 import tempfile
 
+def change_wall():
+    global counter
+    img_lable.config(image=img_arr[(counter+1)%len(files)])
+    counter+=1
+counter=0
+
+
 root=Tk()
 root.title("Wallpaper App")
 root.geometry("400x600")
