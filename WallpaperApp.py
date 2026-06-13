@@ -10,6 +10,11 @@ def change_wall():
     counter+=1
 counter=0
 
+def set_wall():
+    path = os.path.join("wallpaperProto images", files[counter])
+    bmp_path = os.path.join(tempfile.gettempdir(), "wallpaper.bmp")
+    Image.open(path).save(bmp_path, "BMP")
+    ctypes.windll.user32.SystemParametersInfoW(20, 0, bmp_path, 3)
 
 root=Tk()
 root.title("Wallpaper App")
